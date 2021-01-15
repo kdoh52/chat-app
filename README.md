@@ -8,17 +8,19 @@ This application was created with the help of <a href='https://github.com/WebDev
 <img src="chat-app.png" alt="chat app screenshot">
    
 ## Deployed Application
-* TBA
+* <a href='https://chat-app-wds.herokuapp.com/'>Chat App</a>
 
 ## Technologies
 * HTML
 * CSS
 * Javascript
 * Node.js
+* Express
 * React
 * React-dom
 * Socket.io
 * UUID
+* CORS
 * Bootstrap
 * Heroku
   
