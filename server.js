@@ -21,7 +21,6 @@ if (process.env.NODE_ENV === "production") {
 const io = require("socket.io")(server, {
     cors: {
       origin: process.env.SOCKET_URL || "http://localhost:5000",
-      //ws: "//the-coders-corner.herokuapp.com/socket.io/?EIO=4&transport=websocket",
       methods: ["GET", "POST"],
     },
 });
