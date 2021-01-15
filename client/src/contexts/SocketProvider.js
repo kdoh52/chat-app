@@ -12,7 +12,8 @@ export function SocketProvider({ id, children }) {
 
     useEffect(() => {
         const newSocket = io(
-            'http://localhost:5000',
+            // 'http://localhost:5000',
+            'https://tranquil-citadel-74369.herokuapp.com/',
             {query: { id }}
         )
         setSocket(newSocket)

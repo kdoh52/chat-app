@@ -1,4 +1,8 @@
-const io = require("socket.io")(5000)
+// const io = require("socket.io")(5000)
+const express = require('express')
+const app = express()
+const server = require('http').Server(app)
+const io = require('socket.io')(server)
 
 io.on('connection', socket => {
     const id = socket.handshake.query.id
