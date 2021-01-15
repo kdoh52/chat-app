@@ -2,6 +2,8 @@
 
 This is a simple chat web application created using Socket.io and React. It allows a user to sign in and communicate with others remotely using unique ID codes. Users can save contacts and create any combination of group chats with said people. Interface displays messages according to sender and recipients.
 
+To test this, open the application in a normal tab AND an incognito tab. Copy the ID from each to create contacts. A conversation can then be exchanged between the two tabs.
+
 This application was created with the help of <a href='https://github.com/WebDevSimplified'>WebDevSimplified</a>
 
 ## Screenshots
